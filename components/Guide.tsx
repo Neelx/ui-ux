@@ -1,10 +1,11 @@
 import React from 'react'
 
-const Footer = () => {
+const Guide = () => {
   return (
     <div>
+      
     </div>
   )
 }
 
-export default Footer
+export default Guide
