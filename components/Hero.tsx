@@ -50,7 +50,7 @@ const Hero = () => {
                         <p className='regular-16 text-gray-20'>Location</p>
                         <Image src="/close.svg" alt="close" width={24} height={24}/>
                     </div>
-                    <p className='bold-20 text-white'>Mumbai</p>
+                    <p className='bold-20 text-white'>Pune</p>
                     
                     <div className='flexBetween'>
                         <div className='flex flex-col'>
@@ -61,7 +61,7 @@ const Hero = () => {
                     <div className='flexBetween'>
                         <div className='flex flex-col'>
                             <p className='regular-16 block text-gray-20'>Elevation</p>
-                            <p bold-20 text-white>18m above sea level</p>
+                            <p bold-20 text-white>200m above sea level</p>
                         </div>    
                     </div>
                 </div>
