@@ -4,7 +4,8 @@ import Button from './Button'
 
 const Hero = () => {
   return (
-    <section className="max-container padding-container flex flex-colgap-20 
+    <section>
+    <div className="max-container padding-container flex flex-colgap-20 
     py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row ">
         <div className="hero-map"/>
 
@@ -56,6 +57,7 @@ const Hero = () => {
                         <div className='flex flex-col'>
                             <p className='regular-16 block text-gray-20'>Distance</p>
                             <p bold-20 text-white>197km</p>
+                        </div>
                         </div>
 
                     <div className='flexBetween'>
