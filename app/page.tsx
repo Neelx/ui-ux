@@ -4,6 +4,7 @@ import GetApp from "@/components/GetApp";
 import Guide from "@/components/Guide";
 import Hero from "@/components/Hero";
 import Image from "next/image";
+import React from "react";
 
 export default function Home() {
   return(

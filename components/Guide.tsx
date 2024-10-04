@@ -4,10 +4,10 @@ import React from 'react'
 const Guide = () => {
   return (
     <section className='flexCenter flex-col'>
-      <div className='border-2 border-red-500 padding-container
+      <div className='padding-container
         max-container w-full pb-24'>
           <Image src="/camp.svg" alt="camp" width={50} height={50}/>
-          <p className='uppercase regualr-18 -mt-1 mb-3 text-green-50'>
+          <p className='uppercase regular-18 -mt-1 mb-3 text-green-50'>
             I am here for you.
           </p>
           <div className='flex flex-wrap justify-between gap-5 lg:gap-10'>
@@ -21,7 +21,7 @@ const Guide = () => {
               </p>
           </div>
       </div>
-      <div className='flexCenter max-container relative w-full border-2 border-blue-500'>
+      <div className='flexCenter max-container relative w-full'>
         <Image
         src="/boat.png"
         alt="boat"
@@ -41,7 +41,7 @@ const Guide = () => {
           <div className='flexBetween flex-col'>
             <div className='flex w-full flex-col'>
               <div className='flexBetween w-full'>
-                <p className='regaular-16 text-gray-20'>Destiantion</p>
+                <p className='regaular-16 text-gray-20'>Destination</p>
                 <p className='bold-16 text-green-50'>50 mins</p>
               </div>
               <p className='bold-20 mt-2'>Amanora</p>
