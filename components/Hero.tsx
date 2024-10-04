@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Button from "./button.1"
+import Button from './Button'
 
 const Hero = () => {
   return (
