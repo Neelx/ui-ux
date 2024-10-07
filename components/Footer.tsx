@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { FOOTER_LINKS } from '@/app/constants'
 import { title } from 'process'
+import { link } from 'fs'
 
 const Footer = () => {
   return (
@@ -16,7 +17,14 @@ const Footer = () => {
           md:flex-1'>
             {FOOTER_LINKS.map((columns)=>(
               <FooterColumn title={columns.title}>
-                <ul className=''></ul>
+                <ul className='regular-14 flex flex-col gap-4
+                text-gray-30'>
+                  {columns.links.map((link)=> (
+                    <Link href = "/" key={link}>
+                      {link}
+                    </Link>
+                  ))}
+                </ul>
               </FooterColumn>
             ))}
           </div>
@@ -33,8 +41,8 @@ type FooterColumnProps = {
 
 const FooterColumn = ({ title, children }: FooterColumnProps) => {
   return(
-    <div>
-      <h4>{title}</h4>
+    <div className='flex flex-col gap-5'>
+      <h4 className='bold-18 whitespace-nowrap'>{title}</h4>
     </div>
   )
 }
