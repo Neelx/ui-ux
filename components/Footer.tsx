@@ -16,7 +16,7 @@ const Footer = () => {
           md:flex-1'>
             {FOOTER_LINKS.map((columns)=>(
               <FooterColumn title={columns.title}>
-                asadsss
+                <ul className=''></ul>
               </FooterColumn>
             ))}
           </div>
