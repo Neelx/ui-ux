@@ -52,7 +52,7 @@ export const NAV_LINKS = [
     {
       title: 'Learn More',
       links: [
-        'About Hilink',
+        'About Neelx',
         'Press Releases',
         'Environment',
         'Jobs',
