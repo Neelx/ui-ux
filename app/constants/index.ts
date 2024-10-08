@@ -53,24 +53,22 @@ export const NAV_LINKS = [
       title: 'Learn More',
       links: [
         'About Neelx',
-        'Press Releases',
-        'Environment',
-        'Jobs',
-        'Privacy Policy',
+        'Projects',
+        'Address',
         'Contact Us',
       ],
     },
     {
-      title: 'Our Community',
-      links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+      title: 'Address',
+      links: ['12A-1007, Aspire Tower','Amanora Park Town, Hadapsar','Pune 411028'],
     },
   ];
   
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-      { label: 'Admin Officer', value: '123-456-7890' },
-      { label: 'Email Officer', value: 'hilink@akinthil.com' },
+      { label: 'Admin Officer', value: '+917219241608' },
+      { label: 'Email Officer', value: 'indraneelpatil78@gmail.com' },
     ],
   };
   
