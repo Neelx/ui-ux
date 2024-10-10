@@ -67,8 +67,8 @@ export const NAV_LINKS = [
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-      { label: 'Admin Officer', value: '+917219241608' },
-      { label: 'Email Officer', value: 'indraneelpatil78@gmail.com' },
+      { label: 'Contact No', value: '+91 7219241608' },
+      { label: 'Email', value: 'indraneelpatil78@gmail.com' },
     ],
   };
   
