@@ -35,8 +35,7 @@ export const NAV_LINKS = [
       title: 'Technology using augment reality',
       icon: '/tech.svg',
       variant: 'green',
-      description:
-        'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      description:'none',
     },
     {
       title: 'Many new locations every month',
