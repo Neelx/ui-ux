@@ -20,7 +20,7 @@ export const NAV_LINKS = [
     {
       title: 'Real maps can be offline',
       icon: '/map.svg',
-      variant: 'green',
+      variant: 'blue',
       description:
         'The text has been edited will edit the other soon',
     },
